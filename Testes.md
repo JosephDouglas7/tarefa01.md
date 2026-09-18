@@ -2,9 +2,7 @@
 
 são verificações automatizadas que avaliam pequenas partes isoladas do código (funções, métodos ou classes) para garantir que funcionem conforme esperado. Eles ajudam a detectar erros cedo, reduzem custos de manutenção e aumentam a qualidade do software. 
 
-A linguagem de programação utilizada foi a linguagem python e já o stack utilizado foi o selenium. 
-
-o framework escolhido foi o pytest. 
+A linguagem de programação utilizada foi o Python, escolhida pela sua versatilidade e ampla adoção em projetos de automação e testes. O stack empregado foi o Selenium, uma poderosa ferramenta para automação de navegadores que permite validar fluxos de interface e interações do usuário em aplicações web. 
 
 O Pytest é um framework de testes para Python que se destaca pela simplicidade e flexibilidade. Ele permite escrever testes curtos e legíveis usando apenas assert, mas também suporta cenários complexos com fixtures, parametrização e uma ampla gama de plugins. Sua sintaxe é simples, já que basta utilizar assert para validar resultados, e ele possui descoberta automática de arquivos e funções de teste seguindo convenções como test_*.py. Além disso, oferece fixtures para configurar e limpar ambientes de teste de forma modular, parametrização para executar o mesmo teste com diferentes entradas e centenas de plugins disponíveis para relatórios, paralelização e integração com outras ferramentas. Entre suas vantagens estão a fácil integração em pipelines de CI/CD, relatórios claros que mostram valores esperados e obtidos em falhas, além de uma comunidade ativa que mantém documentação extensa e suporte contínuo. 
 

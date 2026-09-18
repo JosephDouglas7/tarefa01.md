@@ -6,7 +6,14 @@ A linguagem de programação utilizada foi o Python, escolhida pela sua versatil
 
 O Pytest é um framework de testes para Python que se destaca pela simplicidade e flexibilidade. Ele permite escrever testes curtos e legíveis usando apenas assert, mas também suporta cenários complexos com fixtures, parametrização e uma ampla gama de plugins. Sua sintaxe é simples, já que basta utilizar assert para validar resultados, e ele possui descoberta automática de arquivos e funções de teste seguindo convenções como test_*.py. Além disso, oferece fixtures para configurar e limpar ambientes de teste de forma modular, parametrização para executar o mesmo teste com diferentes entradas e centenas de plugins disponíveis para relatórios, paralelização e integração com outras ferramentas. Entre suas vantagens estão a fácil integração em pipelines de CI/CD, relatórios claros que mostram valores esperados e obtidos em falhas, além de uma comunidade ativa que mantém documentação extensa e suporte contínuo. 
 
-**PYTEST**: [pytest](https://pypi.org/project/pytest-cov/)
+### PYTEST
+
+[pytest](https://pypi.org/project/pytest-cov/)  
+
+[Documentação pytest](https://docs.pytest.org/en/stable/)
+
+[pytest sem cov](https://pypi.org/project/pytest/)
+         
 
 
 O Visual Studio é uma IDE completa da Microsoft, muito utilizada para desenvolvimento em C#, C++, Python e outras linguagens, e se destaca por integrar ferramentas avançadas de debug que permitem inspecionar variáveis, controlar a execução do código e diagnosticar problemas em tempo real. Ele oferece um ambiente integrado que reúne editor de código, compilador, depurador, gerenciador de pacotes e suporte a múltiplas linguagens, além de contar com suporte multiplataforma para depuração local, remota e até em produção, como em Azure, dispositivos móveis e navegadores. Também funciona bem em pipelines de CI/CD, integrando-se a processos de build e testes automatizados.

@@ -1,0 +1,16 @@
+## Testes de Unidade  
+
+são verificações automatizadas que avaliam pequenas partes isoladas do código (funções, métodos ou classes) para garantir que funcionem conforme esperado. Eles ajudam a detectar erros cedo, reduzem custos de manutenção e aumentam a qualidade do software. 
+
+A linguagem de programação utilizada foi a linguagem python e já o stack utilizado foi o selenium. 
+
+o framework escolhido foi o pytest. 
+
+O Pytest é um framework de testes para Python que se destaca pela simplicidade e flexibilidade. Ele permite escrever testes curtos e legíveis usando apenas assert, mas também suporta cenários complexos com fixtures, parametrização e uma ampla gama de plugins. Sua sintaxe é simples, já que basta utilizar assert para validar resultados, e ele possui descoberta automática de arquivos e funções de teste seguindo convenções como test_*.py. Além disso, oferece fixtures para configurar e limpar ambientes de teste de forma modular, parametrização para executar o mesmo teste com diferentes entradas e centenas de plugins disponíveis para relatórios, paralelização e integração com outras ferramentas. Entre suas vantagens estão a fácil integração em pipelines de CI/CD, relatórios claros que mostram valores esperados e obtidos em falhas, além de uma comunidade ativa que mantém documentação extensa e suporte contínuo. 
+
+**PYTEST**: [pytest](https://pypi.org/project/pytest-cov/)
+
+
+O Visual Studio é uma IDE completa da Microsoft, muito utilizada para desenvolvimento em C#, C++, Python e outras linguagens, e se destaca por integrar ferramentas avançadas de debug que permitem inspecionar variáveis, controlar a execução do código e diagnosticar problemas em tempo real. Ele oferece um ambiente integrado que reúne editor de código, compilador, depurador, gerenciador de pacotes e suporte a múltiplas linguagens, além de contar com suporte multiplataforma para depuração local, remota e até em produção, como em Azure, dispositivos móveis e navegadores. Também funciona bem em pipelines de CI/CD, integrando-se a processos de build e testes automatizados.
+
+Entre as ferramentas de depuração disponíveis estão os breakpoints, que podem ser simples, condicionais ou de função, usados para pausar a execução em locais estratégicos; os comandos Step Into, Step Over e Step Out, que permitem avançar linha a linha, entrar em funções ou sair delas; e a inspeção de variáveis por meio das janelas Autos, Locals e Watch, que monitoram valores e expressões complexas. O recurso DataTips mostra valores de variáveis diretamente no editor durante a execução, enquanto o Call Stack exibe a pilha de chamadas para entender o fluxo do programa. Há ainda alertas configuráveis para capturar exceções específicas, suporte a depuração multithread para controlar aplicações com várias threads, e o recurso Edit and Continue, que permite alterar o código durante a depuração sem reiniciar a aplicação. Na edição Enterprise, o IntelliTrace grava o histórico de execução para que seja possível “voltar no tempo” e analisar estados anteriores. Além disso, o Visual Studio inclui ferramentas de diagnóstico para análise de CPU, memória e desempenho em tempo real, tornando o processo de depuração mais completo e eficiente.
